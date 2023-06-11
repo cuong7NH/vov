@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/init.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/play-button-o.css"
+      rel="stylesheet"
+    />
+    <title>Lối đi hạnh phúc</title>
+  </head>
+
+  <body onload="loadPageFunction()">
+    <!-- Start Loading Page -->
+    <div id="loading-page" class="loading-page">
+      <div>
+        <span class="let1">Đ</span>
+        <span class="let2">a</span>
+        <span class="let3">n</span>
+        <span class="let4">g</span>
+        <span class="let5"> </span>
+        <span class="let6">t</span>
+        <span class="let7">ả</span>
+        <span class="let8">i</span>
+        <span class="let8">.</span>
+        <span class="let9">.</span>
+        <span class="let10">.</span>
+      </div>
+    </div>
+    <div id="container">
+      <div class="divider" aria-hidden="true"></div>
+      <p class="loading-text" aria-label="Loading">
+        <span class="letter" aria-hidden="true">L</span>
+        <span class="letter" aria-hidden="true">o</span>
+        <span class="letter" aria-hidden="true">a</span>
+        <span class="letter" aria-hidden="true">d</span>
+        <span class="letter" aria-hidden="true">i</span>
+        <span class="letter" aria-hidden="true">n</span>
+        <span class="letter" aria-hidden="true">g</span>
+      </p>
+    </div>
+    <!-- End Loading Page -->
+    <div id="page-content" class="display-none">
+      <!-- Start Header tab -->
+      <div class="header">
+        <div class="header-tab">
+          <div
+            class="header-tab-item header-tab-item-1 header-tab-item-no-active"
+          >
+            <a href="phan1.html">"Nữ hoàng" vận động viên</a>
+          </div>
+          <div
+            class="header-tab-item header-tab-item-2 header-tab-item-no-active"
+          >
+            <a href="phan2.html">Những bước chân không mỏi</a>
+          </div>
+          <div class="header-tab-item header-tab-item-3">
+            <a href="phan3.html">Lối đi hạnh phúc</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Header tab -->
+      <div id="button-play" class="fake-player">
+        <button role="play" class="play"></button>
+        <button role="pause" class="pause hidden"></button>
+      </div>
+
+      <!-- Start Banner -->
+      <div class="b2-banner">
+        <img src="images/b2/banner.png" alt="" class="img-full" />
+      </div>
+    </div>
+    <div style="height: 100px"></div>
+
+    <section>
+      <div class="audio">
+        <div class="progress"></div>
+        <img
+          src="images/icon-play.png"
+          alt=""
+          class="play_play play_audio"
+          style="height: 250px; width: 250px; opacity: 0.6"
+        />
+        <img
+          src="images/icon-pause.png"
+          style="opacity: 0.6"
+          alt=""
+          class="play_pause play_audio hidden-item"
+        />
+        <div class="action" style="display: none">
+          <div class="time">
+            <span class="current">0:00</span>
+            /
+            <span class="duration">0:00</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <audio
+      style="background-color: rebeccapurple"
+      hidden
+      src="images/audios/testmp3.mp3"
+    ></audio>
+
+    <div style="height: 100px"></div>
+    <script src="js/main3.js"></script>
+  </body>
+</html>

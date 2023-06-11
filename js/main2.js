@@ -3,10 +3,10 @@
 
 
 function loadPageFunction() {
-  // const loadingPage = document.getElementById("loading-page")
-  // const contentPage = document.getElementById("page-content")
-  // loadingPage.classList.add("display-none")
-  // contentPage.classList.remove("display-none")
+  const loadingPage = document.getElementById("loading-page")
+  const contentPage = document.getElementById("page-content")
+  loadingPage.classList.add("display-none")
+  contentPage.classList.remove("display-none")
 }
 
 

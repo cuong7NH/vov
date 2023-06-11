@@ -21,97 +21,68 @@ body {
   padding-top: 100px;
   position: relative;
   height: 100%;
+  min-height: 100vh;
 }
 
 /* loading */
-
 .loading-page {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.loading-page div {
-  margin: 0;
-  padding: 0;
-  /* font-family: ‘Arial Narrow’, sans-serif; */
-  font-weight: 100;
-  font-size: 10px !important;
-  color: #1e2b2e;
+
+.loader {
+  transform: translate(100px, 0);
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
+  font-family: helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
+  letter-spacing: 0.2em;
+  /* Yatayda ve Düşeyde Ortalama   */
+  position: absolute;
+  top: calc(50% + 100px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.loader::before,
+.loader::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background:  #edb528d8;
+  border-radius: 4px;
+  position: absolute;
+  animation: load 0.9s infinite alternate ease-in-out;
+}
+.loader::before {
+  top: 0;
+}
+.loader::after {
+  bottom: 0;
 }
 
-.loading-page div span {
-  position: relative;
-  top: 0.63em;
-  display: inline-block;
-  /* text-transform: uppercase; */
-  /* opacity: 0; */
-  /* transform: rotateX(-90deg); */
-}
-/* 
-.loading-page .let1 {
-  animation: drop 1.2s ease-in-out infinite;
-}
-
-.loading-page .let2 {
-  animation: drop 1.2s ease-in-out infinite;
-}
-
-.loading-page .let3 {
-  animation: drop 1.2s ease-in-out infinite;
-}
-
-.loading-page .let4 {
-  animation: drop 1.2s ease-in-out infinite;
-}
-
-.loading-page .let5 {
-  animation: drop 1.2s ease-in-out infinite;
-}
-
-.loading-page .let6 {
-  animation: drop 1.2s ease-in-out infinite;
-}
-
-.loading-page .let7 {
-  animation: drop 1.2s ease-in-out infinite;
-}
-.loading-page .let8 {
-  animation: drop 1.2s ease-in-out infinite;
-}
-
-.loading-page .let9 {
-  animation: drop 1.2s ease-in-out infinite;
-}
-
-.loading-page .let10 {
-  animation: drop 1.2s ease-in-out infinite;
-}
-
-@keyframes drop {
-  10% {
-    opacity: 0.5;
+@keyframes load {
+  0% {
+    left: 0;
+    height: 20px;
+    width: 15px;
   }
-  20% {
-    opacity: 1;
-    top: 1.78em;
-    transform: rotateX(-360deg);
-  }
-  80% {
-    opacity: 1;
-    top: 1.78em;
-    transform: rotateX(-360deg);
-  }
-  90% {
-    opacity: 0.5;
+  50% {
+    height: 8px;
+    width: 40px;
   }
   100% {
-    opacity: 0;
-    top: 2.94em;
+    left: 235px;
+    height: 20px;
+    width: 15px;
   }
-} */
+}
 
 /* HEADER */
 

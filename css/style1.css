@@ -1,3 +1,6 @@
+.text-mo-dau {
+  margin: 80px 0 100px;
+}
 /* Bài 1 - section 1 */
 .b1-ss1 {
 }
@@ -290,6 +293,7 @@
 }
 .image-comparison .banner-text p {
   color: #fff;
+  text-align: right;
 }
 
 @media screen and (max-width: 820px) {
@@ -299,6 +303,9 @@
   .image-comparison .banner-text h1 {
     font-size: 22px;
     width: 320px;
+  }
+  .image-comparison .banner-text h1:first-child {
+    width: 250px;
   }
 }
 

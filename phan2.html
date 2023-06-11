@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/init.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/audio.css" />
     <link rel="stylesheet" href="css/style2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
@@ -43,8 +44,25 @@
       <!-- Start Banner -->
       <div class="b2-banner">
         <div class="contaier">
-          <div class="container-img">
-            <img src="images/b2/Image-1-1.png" alt="" />
+          <div class="container-img" style="position: relative">
+            <img src="images/b2/1.jpg" alt="" />
+            <div class="b2-banner-text">
+              <div class="b2-banner-text-left">
+                <h1 style="width: 353px">Những bước chân</h1>
+                <h1 style="width: 210px">không mỏi</h1>
+              </div>
+              <p
+                style="
+                  background: rgba(255, 255, 255, 0.25);
+                  color: black;
+                  padding: 4px 10px;
+                  border-radius: 10px;
+                "
+              >
+                "Nỗi sợ lớn nhất là gặp tai nạn giao thông <br />đã mù còn què
+                nữa thì ai nuôi?"
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -60,37 +78,37 @@
           </p>
           <div class="b2-ss1-flex">
             <div class="container-img b2-ss1-flex-left">
-              <img src="images/b2/Image-1-2.png" alt="" />
+              <img src="images/b2/2.jpg" alt="" />
             </div>
             <div class="b2-ss1-flex-right">
-              <div class="audio1">
-                <div class="progress1"></div>
+              <div class="audio">
+                <div class="progress"></div>
                 <img
                   src="images/icon-play.png"
                   alt=""
-                  class="play_play1 play_audio1"
+                  class="play_play play_audio"
                   style="height: 25px; width: 25px; opacity: 0.6"
                 />
                 <img
                   src="images/icon-pause.png"
                   alt=""
                   style="height: 18px; width: 18px; opacity: 0.6"
-                  class="play_pause1 play_audio1 hidden-item"
+                  class="play_pause play_audio hidden-item"
                 />
-                <div class="action1" style="display: none">
-                  <div class="time1">
-                    <span class="current1">0:00</span>
+                <div class="action" style="display: none">
+                  <div class="time">
+                    <span class="current">0:00</span>
                     /
-                    <span class="duration1">0:00</span>
+                    <span class="duration">0:00</span>
                   </div>
                 </div>
               </div>
               <audio
+                id="audio0"
                 style="background-color: rebeccapurple"
                 hidden
                 src="images/audios/testmp3.mp3"
               ></audio>
-
               <p>
                 Giống như đang đi trên đỉnh núi, rồi tự nhiên không nhìn thấy gì
                 và rơi xuống vực. Cảm giác mình rơi mãi, không biết đáy ở đâu và
@@ -117,29 +135,30 @@
             chuyển trên quãng đường mà trước đây chỉ mất 2 phút đi bộ.
           </p>
           <div class="b2-ss1-bang">
-            <div class="audio">
-              <div class="progress"></div>
+            <div class="audio1">
+              <div class="progress1"></div>
               <img
                 src="images/icon-play.png"
                 alt=""
-                class="play_play play_audio"
+                class="play_play1 play_audio1"
                 style="height: 25px; width: 25px; opacity: 0.6"
               />
               <img
                 src="images/icon-pause.png"
                 alt=""
                 style="height: 18px; width: 18px; opacity: 0.6"
-                class="play_pause play_audio hidden-item"
+                class="play_pause1 play_audio1 hidden-item"
               />
-              <div class="action" style="display: none">
-                <div class="time">
-                  <span class="current">0:00</span>
+              <div class="action1" style="display: none">
+                <div class="time1">
+                  <span class="current1">0:00</span>
                   /
-                  <span class="duration">0:00</span>
+                  <span class="duration1">0:00</span>
                 </div>
               </div>
             </div>
             <audio
+              id="audio1"
               style="background-color: rebeccapurple"
               hidden
               src="images/audios/testmp3.mp3"
@@ -158,7 +177,7 @@
       <div class="b2-ss2">
         <div class="contaier">
           <div class="container-img">
-            <img src="images/b2/Image-1-1.png" alt="" />
+            <img src="images/b2/3.jpg" alt="" />
           </div>
           <p style="margin: 30px 0 20px">
             Thử thách chỉ thực sự đến khi ông bước chân ra khỏi ngôi nhà của
@@ -167,7 +186,27 @@
             đi học, đi làm:
           </p>
           <div class="b2-ss2-bang">
-            <img src="images/icon-sound.png" alt="" />
+            <div class="audio2">
+              <div class="progress2"></div>
+              <img
+                src="images/icon-play.png"
+                alt=""
+                class="play_play2 play_audio2"
+                style="height: 25px; width: 25px; opacity: 0.6"
+              />
+              <img
+                src="images/icon-pause.png"
+                alt=""
+                style="height: 18px; width: 18px; opacity: 0.6"
+                class="play_pause2 play_audio2 hidden-item"
+              />
+            </div>
+            <audio
+              id="audio2"
+              style="background-color: rebeccapurple"
+              hidden
+              src="images/audios/testmp3.mp3"
+            ></audio>
             <p>
               Ống đồng nát bét vì va vào bô xe máy dựng giữa đường. Cầm gậy đi
               bộ dưới vỉa hè chỉ cần bước trượt phát là chạm vào bô xe máy. Kinh
@@ -176,6 +215,14 @@
               đường nhiều. Những người chân trơn tru thì nghĩa là họ không ra
               nổi đường, rất là khủng khiếp.
             </p>
+          </div>
+          <div class="b2-ss2-2-image">
+            <div class="contaier-img">
+              <img src="images/b2/4.jpg" alt="" />
+            </div>
+            <div class="contaier-img">
+              <img src="images/b2/Image-1-2.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -209,7 +256,7 @@
             </div>
             <div class="b2-ss3-flex-right">
               <div class="container-img">
-                <img src="images/b2/Image-1-2.png" alt="" />
+                <img src="images/b2/4.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -234,7 +281,27 @@
             sống tốt của Tổ chức Health Bridge của Canada nói:
           </p>
           <div class="b2-ss3-bang">
-            <img src="images/icon-sound.png" alt="" />
+            <div class="audio3">
+              <div class="progress3"></div>
+              <img
+                src="images/icon-play.png"
+                alt=""
+                class="play_play3 play_audio3"
+                style="height: 25px; width: 25px; opacity: 0.6"
+              />
+              <img
+                src="images/icon-pause.png"
+                alt=""
+                style="height: 18px; width: 18px; opacity: 0.6"
+                class="play_pause3 play_audio3 hidden-item"
+              />
+            </div>
+            <audio
+              id="audio3"
+              style="background-color: rebeccapurple"
+              hidden
+              src="images/audios/testmp3.mp3"
+            ></audio>
             <p>
               Chỉ riêng Hoàn Kiếm (Hà Nội) cũng đã làm rất nhiều hạ tầng dành
               cho người khiếm thị trên vỉa hè nhưng chưa hoàn chỉnh. Đôi khi
@@ -258,7 +325,27 @@
             <img src="images/b2/Image-1-1.png" alt="" />
           </div>
           <div class="b2-ss4-bang">
-            <img src="images/icon-sound.png" alt="" />
+            <div class="audio4">
+              <div class="progress4"></div>
+              <img
+                src="images/icon-play.png"
+                alt=""
+                class="play_play4 play_audio4"
+                style="height: 25px; width: 25px; opacity: 0.6"
+              />
+              <img
+                src="images/icon-pause.png"
+                alt=""
+                style="height: 18px; width: 18px; opacity: 0.6"
+                class="play_pause4 play_audio4 hidden-item"
+              />
+            </div>
+            <audio
+              id="audio4"
+              style="background-color: rebeccapurple"
+              hidden
+              src="images/audios/testmp3.mp3"
+            ></audio>
             <p>
               Nhờ có bạn bè thay nhau vào, đèo đi ăn sáng, uống bia, trông đồ,
               uống cafe và tả khung cảnh xung quanh mới vực dậy được. Gia đình
@@ -298,7 +385,27 @@
             </div>
           </div>
           <div class="b2-ss4-bang">
-            <img src="images/icon-sound.png" alt="" />
+            <div class="audio5">
+              <div class="progress5"></div>
+              <img
+                src="images/icon-play.png"
+                alt=""
+                class="play_play5 play_audio5"
+                style="height: 25px; width: 25px; opacity: 0.6"
+              />
+              <img
+                src="images/icon-pause.png"
+                alt=""
+                style="height: 18px; width: 18px; opacity: 0.6"
+                class="play_pause5 play_audio5 hidden-item"
+              />
+            </div>
+            <audio
+              id="audio5"
+              style="background-color: rebeccapurple"
+              hidden
+              src="images/audios/testmp3.mp3"
+            ></audio>
             <p>
               Từ khi tham gia Hội người mù, với tính ham học, người mù có gì là
               chú học bằng tuốt tuột. Đầu tiên là phải học chữ nổi, mình tự học.
@@ -359,7 +466,27 @@
             </div>
           </div>
           <div class="b2-ss6-bang">
-            <img src="images/icon-sound.png" alt="" />
+            <div class="audio6">
+              <div class="progress6"></div>
+              <img
+                src="images/icon-play.png"
+                alt=""
+                class="play_play6 play_audio6"
+                style="height: 25px; width: 25px; opacity: 0.6"
+              />
+              <img
+                src="images/icon-pause.png"
+                alt=""
+                style="height: 18px; width: 18px; opacity: 0.6"
+                class="play_pause6 play_audio6 hidden-item"
+              />
+            </div>
+            <audio
+              id="audio6"
+              style="background-color: rebeccapurple"
+              hidden
+              src="images/audios/testmp3.mp3"
+            ></audio>
             <p>
               Khi bắt đầu vào Hội người mù mới thấy nhiều người còn trình độ
               năng lực sức khoẻ thì sao người ta tham gia được mà mình không
@@ -384,14 +511,34 @@
             <img src="images/b2/Image-1-1.png" alt="" />
           </div>
           <div class="b2-ss6-bang">
-            <img src="images/icon-sound.png" alt="" />
+            <div class="audio7">
+              <div class="progress7"></div>
+              <img
+                src="images/icon-play.png"
+                alt=""
+                class="play_play7 play_audio7"
+                style="height: 25px; width: 25px; opacity: 0.6"
+              />
+              <img
+                src="images/icon-pause.png"
+                alt=""
+                style="height: 18px; width: 18px; opacity: 0.6"
+                class="play_pause7 play_audio7 hidden-item"
+              />
+            </div>
+            <audio
+              id="audio7"
+              style="background-color: rebeccapurple"
+              hidden
+              src="images/audios/testmp3.mp3"
+            ></audio>
             <p style="font-weight: 500">
-              Khi bắt đầu vào Hội người mù mới thấy nhiều người còn trình độ
-              năng lực sức khoẻ thì sao người ta tham gia được mà mình không
-              tham gia thì chú mới tham gia đấy chứ. Và khi đi vận động người mù
-              thì mình dùng chính tấm gương của mình, mình vận động người ta là
-              tôi ngày xưa cũng thế. Lúc mới bị mù cũng thế để vận động tham gia
-              Hội. Mà lắm ngừoi trẻ còn hoạt động tưng bừng hơn mình nhiều.
+              Người khuyết tật chỉ mong muốn tất cả những chính sách, luật hay
+              bộ ngành liên quan đến vấn đề xây dựng, vấn đề tiếp cận giao
+              thông, cần thực hiện đúng và lắng nghe tiếng nói của chính những
+              người khuyết tật. Làm luật phải có thực thì đúng khi đó mới không
+              có rào cản. Tôi tin chắc rằng không có người khuyết tật, bởi nếu
+              không có rào cản thì họ không khuyết tật.
             </p>
           </div>
         </div>

@@ -362,81 +362,11 @@ button {
   transition: 0.3;
 }
 
+
+.hidden-page {
+  visibility: hidden!important;
+  transition: 0.3;
+}
+
 /* AUDIO CSS */
 
-.audio,
-.audio1 {
-  position: relative;
-  height: 100px;
-  width: 100px;
-  transform: translate(24px, 10px);
-}
-.audio::after {
-  content: "";
-  position: absolute;
-  background-color: #ebebeb;
-  height: 3px;
-  top: 0;
-  left: -30px;
-  right: 37px;
-}
-.audio::before {
-  content: "";
-  position: absolute;
-  background-color: #ebebeb;
-  height: 3px;
-  bottom: 0;
-  left: -30px;
-  right: 37px;
-}
-
-.audio .progress,
-.audio1 .progress1 {
-  transform: scale(0.13);
-  z-index: 1;
-  position: absolute;
-  top: 47px;
-  left: -14px;
-  height: 1px;
-}
-
-.audio .progress span,
-.audio1 .progress1 span {
-  width: 36px;
-  height: 16px;
-  display: block;
-  position: absolute;
-  transform-origin: 240px;
-  transform: rotateZ(calc(var(--i) * 3.6deg));
-  background: #ebebeb;
-}
-
-.audio .progress span.active,
-.audio1 .progress1 span.active {
-  background-color: #666666;
-}
-
-.audio .progress span:hover,
-.audio1 .progress1 span:hover {
-  background-color: #ccc;
-  cursor: pointer;
-}
-
-.audio .play_pause,
-.play_play {
-  position: absolute;
-  top: 48%;
-  left: 17%;
-  transform: translate(-43%, -50%);
-  cursor: pointer;
-  display: inline-block;
-}
-.audio1 .play_pause1,
-.play_play1 {
-  position: absolute;
-  top: 48%;
-  left: 17%;
-  transform: translate(-43%, -50%);
-  cursor: pointer;
-  display: inline-block;
-}

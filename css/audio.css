@@ -1,0 +1,575 @@
+/* 00000000000000000000000 */
+.audio {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  transform: translate(24px, 10px);
+}
+.audio::after {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  top: 0;
+  left: -30px;
+  right: 37px;
+}
+.audio::before {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  bottom: 0;
+  left: -30px;
+  right: 37px;
+}
+
+.audio .progress {
+  transform: scale(0.13);
+  z-index: 1;
+  position: absolute;
+  top: 47px;
+  left: -14px;
+  height: 1px;
+}
+
+.audio .progress span {
+  width: 36px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  transform-origin: 240px;
+  transform: rotateZ(calc(var(--i) * 3.6deg));
+  background: #ebebeb;
+}
+
+.audio .progress span.active {
+  background-color: #666666;
+}
+
+.audio .progress span:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.audio .play_pause,
+.play_play {
+  position: absolute;
+  top: 48%;
+  left: 17%;
+  transform: translate(-43%, -50%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* 1111111111111111111111111111 */
+.audio1 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  transform: translate(24px, 10px);
+}
+.audio1::after {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  top: 0;
+  left: -30px;
+  right: 37px;
+}
+.audio1::before {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  bottom: 0;
+  left: -30px;
+  right: 37px;
+}
+
+.audio1 .progress1 {
+  transform: scale(0.13);
+  z-index: 1;
+  position: absolute;
+  top: 47px;
+  left: -14px;
+  height: 1px;
+}
+
+.audio1 .progress1 span {
+  width: 36px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  transform-origin: 240px;
+  transform: rotateZ(calc(var(--i) * 3.6deg));
+  background: #ebebeb;
+}
+
+.audio1 .progress1 span.active {
+  background-color: #666666;
+}
+
+.audio1 .progress1 span:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.audio1 .play_pause1,
+.play_play1 {
+  position: absolute;
+  top: 48%;
+  left: 17%;
+  transform: translate(-43%, -50%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* 1111111111111111111111111111 */
+.audio1 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  transform: translate(24px, 10px);
+}
+.audio1::after {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  top: 0;
+  left: -30px;
+  right: 37px;
+}
+.audio1::before {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  bottom: 0;
+  left: -30px;
+  right: 37px;
+}
+
+.audio1 .progress1 {
+  transform: scale(0.13);
+  z-index: 1;
+  position: absolute;
+  top: 47px;
+  left: -14px;
+  height: 1px;
+}
+
+.audio1 .progress1 span {
+  width: 36px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  transform-origin: 240px;
+  transform: rotateZ(calc(var(--i) * 3.6deg));
+  background: #ebebeb;
+}
+
+.audio1 .progress1 span.active {
+  background-color: #666666;
+}
+
+.audio1 .progress1 span:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.audio1 .play_pause1,
+.play_play1 {
+  position: absolute;
+  top: 48%;
+  left: 17%;
+  transform: translate(-43%, -50%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* 22222222222222222 */
+.audio2 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  transform: translate(24px, 10px);
+}
+.audio2::after {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  top: 0;
+  left: -30px;
+  right: 37px;
+}
+.audio2::before {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  bottom: 0;
+  left: -30px;
+  right: 37px;
+}
+
+.audio2 .progress2 {
+  transform: scale(0.13);
+  z-index: 1;
+  position: absolute;
+  top: 47px;
+  left: -14px;
+  height: 1px;
+}
+
+.audio2 .progress2 span {
+  width: 36px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  transform-origin: 240px;
+  transform: rotateZ(calc(var(--i) * 3.6deg));
+  background: #ebebeb;
+}
+
+.audio2 .progress2 span.active {
+  background-color: #666666;
+}
+
+.audio2 .progress2 span:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.audio2 .play_pause2,
+.play_play2 {
+  position: absolute;
+  top: 48%;
+  left: 17%;
+  transform: translate(-43%, -50%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* 33333333333333333333333333 */
+.audio3 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  transform: translate(24px, 10px);
+}
+.audio3::after {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  top: 0;
+  left: -30px;
+  right: 37px;
+}
+.audio3::before {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  bottom: 0;
+  left: -30px;
+  right: 37px;
+}
+
+.audio3 .progress3 {
+  transform: scale(0.13);
+  z-index: 1;
+  position: absolute;
+  top: 47px;
+  left: -14px;
+  height: 1px;
+}
+
+.audio3 .progress3 span {
+  width: 36px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  transform-origin: 240px;
+  transform: rotateZ(calc(var(--i) * 3.6deg));
+  background: #ebebeb;
+}
+
+.audio3 .progress3 span.active {
+  background-color: #666666;
+}
+
+.audio3 .progress3 span:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.audio3 .play_pause3,
+.play_play3 {
+  position: absolute;
+  top: 48%;
+  left: 17%;
+  transform: translate(-43%, -50%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* 4444444444444444444 */
+.audio4 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  transform: translate(24px, 10px);
+}
+.audio4::after {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  top: 0;
+  left: -30px;
+  right: 37px;
+}
+.audio4::before {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  bottom: 0;
+  left: -30px;
+  right: 37px;
+}
+
+.audio4 .progress4 {
+  transform: scale(0.13);
+  z-index: 1;
+  position: absolute;
+  top: 47px;
+  left: -14px;
+  height: 1px;
+}
+
+.audio4 .progress4 span {
+  width: 36px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  transform-origin: 240px;
+  transform: rotateZ(calc(var(--i) * 3.6deg));
+  background: #ebebeb;
+}
+
+.audio4 .progress4 span.active {
+  background-color: #666666;
+}
+
+.audio4 .progress4 span:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.audio4 .play_pause4,
+.play_play4 {
+  position: absolute;
+  top: 48%;
+  left: 17%;
+  transform: translate(-43%, -50%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* 555555555555555555555555555555 */
+.audio5 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  transform: translate(24px, 10px);
+}
+.audio5::after {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  top: 0;
+  left: -30px;
+  right: 37px;
+}
+.audio5::before {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  bottom: 0;
+  left: -30px;
+  right: 37px;
+}
+
+.audio5 .progress5 {
+  transform: scale(0.13);
+  z-index: 1;
+  position: absolute;
+  top: 47px;
+  left: -14px;
+  height: 1px;
+}
+
+.audio5 .progress5 span {
+  width: 36px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  transform-origin: 240px;
+  transform: rotateZ(calc(var(--i) * 3.6deg));
+  background: #ebebeb;
+}
+
+.audio5 .progress5 span.active {
+  background-color: #666666;
+}
+
+.audio5 .progress5 span:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.audio5 .play_pause5,
+.play_play5 {
+  position: absolute;
+  top: 48%;
+  left: 17%;
+  transform: translate(-43%, -50%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* 6666666666666666666666666666 */
+.audio6 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  transform: translate(24px, 10px);
+}
+.audio6::after {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  top: 0;
+  left: -30px;
+  right: 37px;
+}
+.audio6::before {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  bottom: 0;
+  left: -30px;
+  right: 37px;
+}
+
+.audio6 .progress6 {
+  transform: scale(0.13);
+  z-index: 1;
+  position: absolute;
+  top: 47px;
+  left: -14px;
+  height: 1px;
+}
+
+.audio6 .progress6 span {
+  width: 36px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  transform-origin: 240px;
+  transform: rotateZ(calc(var(--i) * 3.6deg));
+  background: #ebebeb;
+}
+
+.audio6 .progress6 span.active {
+  background-color: #666666;
+}
+
+.audio6 .progress6 span:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.audio6 .play_pause6,
+.play_play6 {
+  position: absolute;
+  top: 48%;
+  left: 17%;
+  transform: translate(-43%, -50%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* 777777777777777777777 */
+.audio7 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  transform: translate(24px, 10px);
+}
+.audio7::after {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  top: 0;
+  left: -30px;
+  right: 37px;
+}
+.audio7::before {
+  content: "";
+  position: absolute;
+  background-color: #ebebeb;
+  height: 3px;
+  bottom: 0;
+  left: -30px;
+  right: 37px;
+}
+
+.audio7 .progress7 {
+  transform: scale(0.13);
+  z-index: 1;
+  position: absolute;
+  top: 47px;
+  left: -14px;
+  height: 1px;
+}
+
+.audio7 .progress7 span {
+  width: 36px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  transform-origin: 240px;
+  transform: rotateZ(calc(var(--i) * 3.6deg));
+  background: #ebebeb;
+}
+
+.audio7 .progress7 span.active {
+  background-color: #666666;
+}
+
+.audio7 .progress7 span:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.audio7 .play_pause7,
+.play_play7 {
+  position: absolute;
+  top: 48%;
+  left: 17%;
+  transform: translate(-43%, -50%);
+  cursor: pointer;
+  display: inline-block;
+}

@@ -3,7 +3,7 @@
   position: relative;
   height: 100px;
   width: 100px;
-  transform: translate(24px, 10px);
+  transform: translate(31px, 10px);
 }
 .audio::after {
   content: "";
@@ -67,7 +67,7 @@
   position: relative;
   height: 100px;
   width: 100px;
-  transform: translate(24px, 10px);
+  transform: translate(31px, 10px);
 }
 .audio1::after {
   content: "";
@@ -131,7 +131,7 @@
   position: relative;
   height: 100px;
   width: 100px;
-  transform: translate(24px, 10px);
+  transform: translate(31px, 10px);
 }
 .audio1::after {
   content: "";
@@ -195,7 +195,7 @@
   position: relative;
   height: 100px;
   width: 100px;
-  transform: translate(24px, 10px);
+  transform: translate(31px, 10px);
 }
 .audio2::after {
   content: "";
@@ -259,7 +259,7 @@
   position: relative;
   height: 100px;
   width: 100px;
-  transform: translate(24px, 10px);
+  transform: translate(31px, 10px);
 }
 .audio3::after {
   content: "";
@@ -323,7 +323,7 @@
   position: relative;
   height: 100px;
   width: 100px;
-  transform: translate(24px, 10px);
+  transform: translate(31px, 10px);
 }
 .audio4::after {
   content: "";
@@ -387,7 +387,7 @@
   position: relative;
   height: 100px;
   width: 100px;
-  transform: translate(24px, 10px);
+  transform: translate(31px, 10px);
 }
 .audio5::after {
   content: "";
@@ -451,7 +451,7 @@
   position: relative;
   height: 100px;
   width: 100px;
-  transform: translate(24px, 10px);
+  transform: translate(31px, 10px);
 }
 .audio6::after {
   content: "";
@@ -515,7 +515,7 @@
   position: relative;
   height: 100px;
   width: 100px;
-  transform: translate(24px, 10px);
+  transform: translate(31px, 10px);
 }
 .audio7::after {
   content: "";
